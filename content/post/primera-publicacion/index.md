@@ -6,7 +6,7 @@ slug: primera-publicacion
 image: cover.png
 image_alt: "Logo de distritoZero sobre fondo verde con barra dourada"
 categories:
-  - Administración local
+  - Opinión
 tags:
   - Primeira publicación
 weight: 100
@@ -22,8 +22,9 @@ A páxina [Sobre](/about/) resume a filosofía do proxecto: unha mirada **futuri
 
 ## Liña editorial: as categorías
 
-O contido organízase en **seis categorías** que se artellan arredor dunha liña editorial que se irá construíndo:
+O contido organízase en **sete categorías** que se artellan arredor dunha liña editorial que se irá construíndo:
 
+- <span style="background-color: #e9c46a; color: #1a1a2e; padding: 0.15em 0.4em; border-radius: 4px;">**Opinión**</span> — Reflexión, análise e visión editorial baseada en datos e evidencia
 - <span style="background-color: #2a9d8f; color: #fff; padding: 0.15em 0.4em; border-radius: 4px;">**Administración local**</span> — Concellos, goberno municipal e competencias locais
 - <span style="background-color: #4361ee; color: #fff; padding: 0.15em 0.4em; border-radius: 4px;">**Administración autonómica**</span> — Xunta, Parlamento e políticas da Comunidade
 - <span style="background-color: #7209b7; color: #fff; padding: 0.15em 0.4em; border-radius: 4px;">**Territorio e Urbanismo**</span> — Ordenación, solo, vivenda e mobilidade
