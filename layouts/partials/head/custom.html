@@ -1,20 +1,26 @@
 {{- with .Site.Home.OutputFormats.Get "rss" -}}
 <link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }} - RSS" />
 {{- end -}}
-{{- /* Open Graph e Twitter Card para preview en redes sociais */ -}}
+{{- /* Open Graph e Twitter Card para preview en redes sociais (imaxe 1200x630 para X/Facebook) */ -}}
 {{- $ogImage := "" -}}
 {{- if .IsPage -}}
-  {{- /* Prioridade: og_image (imaxe en static), logo Resources, logo URL construída */ -}}
+  {{- /* Prioridade: og_image en assets (resizada 1200x630), logo Resources do bundle, logo URL construída */ -}}
   {{- with .Params.og_image -}}
-    {{- $ogImage = . | absURL -}}
+    {{- $r := resources.Get . -}}
+    {{- if $r -}}
+      {{- $resized := $r.Fill "1200x630" -}}
+      {{- $ogImage = $resized.Permalink -}}
+    {{- else -}}
+      {{- $ogImage = . | absURL -}}
+    {{- end -}}
   {{- end -}}
   {{- if not $ogImage -}}
   {{- with .Params.image -}}
     {{- $img := $.Resources.Get . -}}
     {{- if $img -}}
-      {{- $ogImage = $img.Permalink -}}
+      {{- $resized := $img.Fill "1200x630" -}}
+      {{- $ogImage = $resized.Permalink -}}
     {{- else -}}
-      {{- /* Fallback: construír URL explícita (páxina + nome da imaxe) */ -}}
       {{- $ogImage = printf "%s%s" $.Permalink . -}}
     {{- end -}}
   {{- end -}}

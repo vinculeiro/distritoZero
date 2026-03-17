@@ -1,6 +1,6 @@
 ---
-title: "distritoZero | Inicio"
-description: "Levanta a cabeza, baixa o balón, reparte xogo"
+title: "distritoZero | Inicio: datos para alumear o futuro desde Galicia"
+description: "distritoZero é un espazo dixital de análise baseada en datos. Reflexión, opinión fundamentada e participación no debate público sobre política e xestión."
 date: 2025-02-17
 slug: primera-publicacion
 image: cover.png
