@@ -67,7 +67,7 @@ SortBy              = "default"
 # Google Analytics (se carga solo tras consentimiento de cookies)
 # Sustituye G-XXXXXXXXXX por tu Measurement ID de Google Analytics 4
 [googleAnalytics]
-    id = "G-XXXXXXXXXX"
+    id = "G-QZEXFTDZL5"
 
 # Aviso de cookies (RGPD)
 [cookieConsent]
