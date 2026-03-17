@@ -38,6 +38,11 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Debug - Verify setup
+        run: |
+          echo "Hugo version:"; hugo version
+          echo "Base URL will be: https://vinculeiro.github.io/distritoZero/"
+          echo "Config exists:"; ls -la config/_default/ 2>/dev/null || echo "No config dir"
       - name: Fetch Hugo modules
         run: hugo mod get
       - name: Build with Hugo
@@ -45,7 +50,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
-          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --gc --minify --baseURL "https://vinculeiro.github.io/distritoZero/" --verbose
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
