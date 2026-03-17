@@ -6,6 +6,7 @@ slug: primera-publicacion
 image: cover.png
 image_alt: "Logo de distritoZero sobre fondo verde con barra dourada"
 categories:
+  - Administración local
 tags:
   - Primeira publicación
 weight: 100
