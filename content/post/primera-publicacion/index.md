@@ -5,6 +5,7 @@ date: 2025-02-17
 slug: primera-publicacion
 image: cover.png
 image_alt: "Logo de distritoZero sobre fondo verde con barra dourada"
+og_image: "img/og/primera-publicacion.png"
 categories:
   - Opinión
 tags:

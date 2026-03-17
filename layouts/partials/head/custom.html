@@ -4,20 +4,34 @@
 {{- /* Open Graph e Twitter Card para preview en redes sociais */ -}}
 {{- $ogImage := "" -}}
 {{- if .IsPage -}}
+  {{- /* Prioridade: og_image (imaxe en static), logo Resources, logo URL construída */ -}}
+  {{- with .Params.og_image -}}
+    {{- $ogImage = . | absURL -}}
+  {{- end -}}
+  {{- if not $ogImage -}}
   {{- with .Params.image -}}
     {{- $img := $.Resources.Get . -}}
     {{- if $img -}}
       {{- $ogImage = $img.Permalink -}}
+    {{- else -}}
+      {{- /* Fallback: construír URL explícita (páxina + nome da imaxe) */ -}}
+      {{- $ogImage = printf "%s%s" $.Permalink . -}}
     {{- end -}}
+  {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- if not $ogImage -}}
   {{- $ogImage = "img/imaxe_bagde.png" | absURL -}}
 {{- end -}}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:image" content="{{ $ogImage }}" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
+<meta property="og:image:secure_url" content="{{ $ogImage }}" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}" />
 <meta name="twitter:image" content="{{ $ogImage }}" />
 {{- /* Favicon */ -}}
 <link rel="icon" type="image/png" href="{{ "img/favicon.png" | absURL }}" />
