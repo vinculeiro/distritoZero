@@ -48,7 +48,6 @@ SortBy              = "default"
     ]
     page = [
         { type = "toc" },
-        { type = "related-posts", params = { limit = 5, title = "Artigos relacionados" } },
     ]
 
 # Imaxe por defecto para Open Graph e Twitter (Sobre, Privacidade, páxinas sen imaxe destacada)
