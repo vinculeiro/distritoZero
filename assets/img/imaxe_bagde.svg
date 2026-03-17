@@ -27,14 +27,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.12708801"
-     inkscape:cx="1876.6523"
-     inkscape:cy="1302.2472"
+     inkscape:cx="2333.0289"
+     inkscape:cy="1853.0466"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     showguides="false" />
   <defs
      id="defs1" />
   <g
@@ -42,34 +43,35 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       width="1200"
-       height="630"
+       width="1199.2417"
+       height="628.19794"
        fill="#b0d0ab"
-       id="background"
-       x="1.4210855e-13"
-       y="1.1368684e-13"
-       style="stroke-width:4.34742" />
-    <rect
-       x="-2.8827801"
-       y="249.31383"
-       width="1198.4834"
-       height="131.15741"
-       fill="#ffd700"
-       stroke="#000000"
-       stroke-width="26.5961"
-       id="horizontal-bar"
-       style="stroke:none"
-       transform="matrix(0.99999998,2.1550571e-4,0.01156297,0.99993315,0,0)" />
+       id="background-8"
+       style="fill:#383838;fill-opacity:1;stroke-width:4.33982"
+       x="2.4868996e-14"
+       y="-8.0380147e-14" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:131.403px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.08344;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:85.4404px;font-family:'Victor Mono';-inkscape-font-specification:'Victor Mono, Thin';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:6.2101;stroke-miterlimit:20"
        x="600"
-       y="293.91833"
-       id="text10"><tspan
+       y="350.75681"
+       id="text10-8"><tspan
          sodipodi:role="line"
-         id="tspan10"
+         id="tspan10-2"
          x="600"
-         y="293.91833"
-         style="stroke:#000000;stroke-width:1.08344;stroke-dasharray:none;stroke-opacity:1">DistritoNeoLN</tspan></text>
+         y="350.75681"
+         style="stroke-width:6.2101">distrito<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.4404px;font-family:'Victor Mono';-inkscape-font-specification:'Victor Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan1">Zero</tspan></tspan></text>
+    <circle
+       id="path1"
+       style="fill:#000000;stroke:#ffffff;stroke-width:0.264583;stroke-opacity:1"
+       cx="297.36801"
+       cy="372.44611"
+       r="0.39216962" />
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:20;fill-opacity:1;stroke-opacity:1;stroke-dasharray:none"
+       d="m 295.61771,388.5296 396.01562,-0.51403"
+       id="path2" />
   </g>
 </svg>

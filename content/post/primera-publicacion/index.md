@@ -1,24 +1,19 @@
 ---
-title: "DistritoNeoLN | Inicio"
-description: "Comeza una nova era, adéntrate, participa!"
+title: "distritoZero | Inicio"
+description: "Levanta a cabeza, baixa o balón, reparte xogo"
 date: 2025-02-17
 slug: primera-publicacion
 image: cover.png
+image_alt: "Logo de distritoZero sobre fondo verde con barra dourada"
 categories:
-  - administracion-local
-  - administracion-autonomica
-  - territorio-e-urbanismo
-  - medio-ambiente
-  - servizos-publicos
-  - participacion-e-transparencia
 tags:
   - Primeira publicación
 weight: 100
 ---
 
-## Que é DistritoNeoLN?
+## Que é distritoZero?
 
-**DistritoNeoLN** é un espazo dixital nacido para explorar a realidade cunha perspectiva baseada en datos. Non só números e gráficos: tamén reflexión, opinión fundamentada e, en definitiva, participación no debate público nun momento onde a información de calidade é máis necesaria que nunca.
+**distritoZero** é un espazo dixital nacido para explorar a realidade cunha perspectiva baseada en datos. Non só números e gráficos: tamén reflexión, opinión fundamentada e, en definitiva, participación no debate público nun momento onde a información de calidade é máis necesaria que nunca.
 
 A páxina [Sobre](/about/) resume a filosofía do proxecto: unha mirada **futurista e optimista**, influenciada polo solarpunk e pola idea dunha Galicia que mira ao futuro sen esquecer a súa identidade. Este blog pretende ser unha pequena contribución para que, neste *interregno* incerto, se poidan soster conversas máis tranquilas e baseadas en evidencia.
 
@@ -48,7 +43,6 @@ O sitio ofréceche varias ferramentas para navegar e interactuar:
 | **Categorías** | Explora por temas principais |
 | **Etiquetas** | Descobre contido por temas específicos |
 | **Comentarios** | Deixa a túa opinión vía Giscus (GitHub Discussions) |
-| **Modo escuro/claro** | Alterna a aparencia segundo a túa preferencia |
 | **Privacidade** | Aviso de cookies e política de privacidade claras |
 
 A análise de visitas faise con **Google Analytics**, activado só tras o teu consentimento de cookies. O noso compromiso é coa transparencia tamén no uso dos teus datos.
@@ -63,6 +57,9 @@ Para afondar na idea de como os datos poden transformar a nosa forma de ver o mu
 
 ## Cara adiante
 
-O rizoma crece pouco a pouco. Agardamos que este espazo sexa útil para quen quere entender mellor a política local e gallega, con datos na man e a vista posta no futuro.
+> *Deixa que todo che suceda: a beleza e o terror.*<br>
+> *Segue adiante. Ningún sentimento é definitivo.*<br>
+> — <cite>Rainer Maria Rilke</cite>
 
-<img src="https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" alt="Construindo o futuro" />
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzY1amdyNnlxNDd3N2x4ZTZvdW5yNTlnc2V0Z3B6Z2Z4eW9pbTFmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PkKzNQjwPy7GvxZbfe/giphy.gif" alt="Construindo o futuro" />

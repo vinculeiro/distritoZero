@@ -9,18 +9,36 @@ menu:
 comments: false
 ---
 
-## Sobre DistritoNeoLN
+## Sobre distritoZero
 
-**DistritoNeoLN** é un espazo dixital dedicado a explorar a política, a xestión pública e a vida en comunidade desde unha perspectiva baseada en datos (*data-driven*). Tamén caerá, de cando en vez, algo de opinión. Mais iso irase vendo. O rizoma crece pouco a pouco.
+**distritoZero** é unha chispa que trata de prender a curiosidade. Como tal non recolle ideas por quen as emite senón polo boas que son.
 
 ### Dende onde?
 
-O proxecto combina unha mirada futurista e optimista, inspirada no solarpunk e na perspectiva do anime, sen perder pé na ideosincrasia dun país mergullado na dó por un mundo que desapareceu. 
+Dende o **quilómetro zero** de Galicia. A vila eterna que no 2150 será a capital do país.
 
 ### Cara onde?
 
-Para que neste *interregno* non aparezan os monstros poñemos a vista alá lonxe, onde tan só se escoiten os ecos da nosa voz, coa convicción xusta e irrevocable de que se pode imaxinar unha Galicia futurista que mire ao ceo como facía Luke Skywalker en Tatooine.
+Cara a creación dun ecosistema aberto, capaz de ser alicerce de debates con múltiples enfoques.
 
 ### Por que?
 
-Polo impulso egoísta de participar nos debates nun momento convulso onde, quizais, a calma sexa o mellor antídoto fronte á irracionalidade.
+Polo impulso egoísta de participar na conversa, con calma, nun momento convulso onde, quizais, a cautela sexa o mellor antídoto fronte á irracionalidade.
+
+
+> *Solo lo verdaderamente nuevo tiene el poder de transformarnos, porque es la fricción lo que nos hace mutar*.<br>
+> — <cite>Marta Peirano</cite>
+
+
+> *Ojalá no creyéramos que tenemos razón antes de salir de casa, sino que saliéramos con la voluntad de defenderla y la disposición generosa para perderla si otros son capaces de quitárnosla*.<br>
+> — <cite>Sergio del Molino</cite>
+
+
+> *Podes ignorar a realidade, pero non podes ignorar as consencuencias de ignorar a realidade*.<br>
+> — <cite>Ayn Rand</cite>
+
+
+> *No hay que luchar contra la complejidad del mundo. Hay que seguirle el juego*.<br>
+> — <cite>Fiorella, Los escorpiones de Sara Barquinero</cite>
+
+ 

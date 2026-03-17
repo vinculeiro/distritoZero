@@ -1,7 +1,8 @@
 # Change baseurl before deploy
-baseurl      = "https://vinculeiro.github.io/distritoNeoLN/"
+baseurl      = "https://vinculeiro.github.io/distritoZero/"
 languageCode = "gl-gl"
-title        = "DistritoNeoLN"
+title        = "distritoZero"
+enableRobotsTXT = true
 
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n

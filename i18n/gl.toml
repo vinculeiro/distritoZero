@@ -29,6 +29,9 @@ darkMode   = "Modo escuro"
     title    = "Non Atopado"
     subtitle = "Esta páxina non existe"
 
+[back_to_home]
+    other = "Volver ao inicio"
+
 [widget]
     [widget.archives]
         title = "Arquivos"

@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon        = "img/logo.png"
+favicon        = "img/favicon.png"
 
 # Accepted values: "default", "lastmod"
 # default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
@@ -22,6 +22,8 @@ SortBy              = "default"
     #emoji    = ""
     subtitle = "Datos para alumear o futuro"
     avatar   = "img/logo.png"
+    # Logo para a pantalla principal (centro da web)
+    mainLogo = "img/logo.png"
 
 [article]
     headingAnchor = false
@@ -34,7 +36,7 @@ SortBy              = "default"
 
 # Breadcrumbs (migas de pan)
 [breadcrumb]
-    enabled = false
+    enabled = true
 
 [widgets]
     homepage = [
@@ -46,11 +48,17 @@ SortBy              = "default"
     ]
     page = [
         { type = "toc" },
-        # { type = "related-posts", params = { limit = 5, title = "Artigos relacionados" } },
+        { type = "related-posts", params = { limit = 5, title = "Artigos relacionados" } },
     ]
 
+# Imaxe por defecto para Open Graph e Twitter (Sobre, Privacidade, páxinas sen imaxe destacada)
+[opengraph]
+    enabled = true
+    src     = "img/imaxe_bagde.png"
+    local   = true
+
 [opengraph.twitter]
-    site = ""
+    site = "@distritoZero"
     card = "summary_large_image"
 
 [colorScheme]
@@ -74,7 +82,7 @@ SortBy              = "default"
     provider = "giscus"
 
     [comments.giscus]
-        repo             = "vinculeiro/distritoNeoLN"
+        repo             = "vinculeiro/distritoZero"
         repo_id          = "R_kgDORSeLqQ"
         category         = "General"
         category_id      = "DIC_kwDORSeLqc4C2pGx"

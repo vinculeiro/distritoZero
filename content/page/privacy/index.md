@@ -10,9 +10,9 @@ menu:
 comments: false
 ---
 
-## Política de privacidade de DistritoNeoLN
+## Política de privacidade de distritoZero
 
-**DistritoNeoLN** respecta a túa privacidade. Esta política describe qué datos recollemos e como os usamos.
+**distritoZero** respecta a túa privacidade. Esta política describe qué datos recollemos e como os usamos.
 
 ### Cookies
 

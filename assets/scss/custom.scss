@@ -327,7 +327,43 @@ article .article-entry p,
   margin-bottom: 1.2em !important;
 }
 
-/* Tamaño de títulos en posts - reducido, fondo amarelo dourado máis claro */
+/* Tamaño de títulos en posts - fondo branco en dark mode, negro en light mode */
+.article-content h1,
+.article-entry h1,
+article .article-content h1,
+article .article-entry h1,
+.post-content h1,
+.article-content h2,
+.article-entry h2,
+article .article-content h2,
+article .article-entry h2,
+.post-content h2,
+.article-content h3,
+.article-entry h3,
+article .article-content h3,
+article .article-entry h3,
+.post-content h3,
+.article-content h4,
+.article-entry h4,
+article .article-content h4,
+article .article-entry h4,
+.post-content h4,
+.article-content h5,
+.article-entry h5,
+article .article-content h5,
+article .article-entry h5,
+.post-content h5,
+.article-content h6,
+.article-entry h6,
+article .article-content h6,
+article .article-entry h6,
+.post-content h6 {
+  padding: 0.3em 0.5em !important;
+  display: block !important;
+  width: max-content !important;
+}
+
+/* Tamaños específicos */
 .article-content h1,
 .article-entry h1,
 article .article-content h1,
@@ -337,11 +373,6 @@ article .article-entry h1,
   line-height: 1.2 !important;
   margin-top: 1.5em !important;
   margin-bottom: 0.8em !important;
-  background-color: rgba(235, 218, 100, 1) !important; /* Amarelo dourado máis claro */
-  color: #1a1a2e !important;
-  padding: 0.3em 0.5em !important;
-  display: block !important;
-  width: max-content !important;
 }
 
 .article-content h2,
@@ -353,11 +384,6 @@ article .article-entry h2,
   line-height: 1.3 !important;
   margin-top: 1.5em !important;
   margin-bottom: 0.7em !important;
-  background-color: rgba(235, 218, 100, 1) !important; /* Amarelo dourado máis claro */
-  color: #1a1a2e !important;
-  padding: 0.3em 0.5em !important;
-  display: block !important;
-  width: max-content !important;
 }
 
 .article-content h3,
@@ -369,11 +395,6 @@ article .article-entry h3,
   line-height: 1.4 !important;
   margin-top: 1.3em !important;
   margin-bottom: 0.6em !important;
-  background-color: rgba(235, 218, 100, 1) !important; /* Amarelo dourado máis claro */
-  color: #1a1a2e !important;
-  padding: 0.3em 0.5em !important;
-  display: block !important;
-  width: max-content !important;
 }
 
 .article-content h4,
@@ -385,11 +406,6 @@ article .article-entry h4,
   line-height: 1.5 !important;
   margin-top: 1.2em !important;
   margin-bottom: 0.5em !important;
-  background-color: rgba(235, 218, 100, 1) !important; /* Amarelo dourado máis claro */
-  color: #1a1a2e !important;
-  padding: 0.3em 0.5em !important;
-  display: block !important;
-  width: max-content !important;
 }
 
 .article-content h5,
@@ -401,11 +417,6 @@ article .article-entry h5,
   line-height: 1.5 !important;
   margin-top: 1.1em !important;
   margin-bottom: 0.5em !important;
-  background-color: rgba(235, 218, 100, 1) !important; /* Amarelo dourado máis claro */
-  color: #1a1a2e !important;
-  padding: 0.3em 0.5em !important;
-  display: block !important;
-  width: max-content !important;
 }
 
 .article-content h6,
@@ -417,11 +428,76 @@ article .article-entry h6,
   line-height: 1.5 !important;
   margin-top: 1em !important;
   margin-bottom: 0.4em !important;
-  background-color: rgba(235, 218, 100, 1) !important; /* Amarelo dourado máis claro */
+}
+
+/* Dark mode: fondo branco, texto negro */
+[data-scheme="dark"] .article-content h1,
+[data-scheme="dark"] .article-entry h1,
+[data-scheme="dark"] article .article-content h1,
+[data-scheme="dark"] article .article-entry h1,
+[data-scheme="dark"] .post-content h1,
+[data-scheme="dark"] .article-content h2,
+[data-scheme="dark"] .article-entry h2,
+[data-scheme="dark"] article .article-content h2,
+[data-scheme="dark"] article .article-entry h2,
+[data-scheme="dark"] .post-content h2,
+[data-scheme="dark"] .article-content h3,
+[data-scheme="dark"] .article-entry h3,
+[data-scheme="dark"] article .article-content h3,
+[data-scheme="dark"] article .article-entry h3,
+[data-scheme="dark"] .post-content h3,
+[data-scheme="dark"] .article-content h4,
+[data-scheme="dark"] .article-entry h4,
+[data-scheme="dark"] article .article-content h4,
+[data-scheme="dark"] article .article-entry h4,
+[data-scheme="dark"] .post-content h4,
+[data-scheme="dark"] .article-content h5,
+[data-scheme="dark"] .article-entry h5,
+[data-scheme="dark"] article .article-content h5,
+[data-scheme="dark"] article .article-entry h5,
+[data-scheme="dark"] .post-content h5,
+[data-scheme="dark"] .article-content h6,
+[data-scheme="dark"] .article-entry h6,
+[data-scheme="dark"] article .article-content h6,
+[data-scheme="dark"] article .article-entry h6,
+[data-scheme="dark"] .post-content h6 {
+  background-color: #ffffff !important;
   color: #1a1a2e !important;
-  padding: 0.3em 0.5em !important;
-  display: block !important;
-  width: max-content !important;
+}
+
+/* Light mode: fondo negro, texto branco */
+[data-scheme="light"] .article-content h1,
+[data-scheme="light"] .article-entry h1,
+[data-scheme="light"] article .article-content h1,
+[data-scheme="light"] article .article-entry h1,
+[data-scheme="light"] .post-content h1,
+[data-scheme="light"] .article-content h2,
+[data-scheme="light"] .article-entry h2,
+[data-scheme="light"] article .article-content h2,
+[data-scheme="light"] article .article-entry h2,
+[data-scheme="light"] .post-content h2,
+[data-scheme="light"] .article-content h3,
+[data-scheme="light"] .article-entry h3,
+[data-scheme="light"] article .article-content h3,
+[data-scheme="light"] article .article-entry h3,
+[data-scheme="light"] .post-content h3,
+[data-scheme="light"] .article-content h4,
+[data-scheme="light"] .article-entry h4,
+[data-scheme="light"] article .article-content h4,
+[data-scheme="light"] article .article-entry h4,
+[data-scheme="light"] .post-content h4,
+[data-scheme="light"] .article-content h5,
+[data-scheme="light"] .article-entry h5,
+[data-scheme="light"] article .article-content h5,
+[data-scheme="light"] article .article-entry h5,
+[data-scheme="light"] .post-content h5,
+[data-scheme="light"] .article-content h6,
+[data-scheme="light"] .article-entry h6,
+[data-scheme="light"] article .article-content h6,
+[data-scheme="light"] article .article-entry h6,
+[data-scheme="light"] .post-content h6 {
+  background-color: #000000 !important;
+  color: #ffffff !important;
 }
 
 /* Tamaño de listas en posts */

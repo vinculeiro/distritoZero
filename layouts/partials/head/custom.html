@@ -1,1 +1,8 @@
+{{- with .Site.Home.OutputFormats.Get "rss" -}}
+<link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }} - RSS" />
+{{- end -}}
+{{- /* Favicon */ -}}
+<link rel="icon" type="image/png" href="{{ "img/favicon.png" | absURL }}" />
+<link rel="apple-touch-icon" href="{{ "img/favicon.png" | absURL }}" />
+<link rel="manifest" href="{{ "manifest.json" | absURL }}" />
 {{ partial "cookie-consent.html" . }}

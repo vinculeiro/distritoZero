@@ -1,0 +1,41 @@
+{{ define "main" }}
+<article class="article">
+    <header class="article-header">
+        <h1 class="article-title">{{ T "notFound.title" }}</h1>
+        <p class="article-subtitle">{{ T "notFound.subtitle" }}</p>
+    </header>
+    <div class="article-content">
+        <p>Parece que a páxina que buscas non existe ou mudou de lugar. Podes probar a buscala ou volver ao inicio.</p>
+        <p>
+            <a href="{{ .Site.Home.RelPermalink }}" class="button">{{ T "back_to_home" }}</a>
+        </p>
+    </div>
+</article>
+
+{{- $query := first 1 (where .Site.Pages "Layout" "==" "search") -}}
+{{- $searchPage := index $query 0 -}}
+{{- with $searchPage -}}
+<section class="search-section" style="margin-top: 2rem;">
+    <h2>{{ T "search.title" }}</h2>
+    <form action="{{ .RelPermalink }}" method="get" role="search">
+        <div class="search-box">
+            {{ partial "helper/icon" "search" }}
+            <input type="search" name="keyword" id="searchInput" placeholder="{{ T "search.placeholder" }}" aria-label="{{ T "search.title" }}" />
+        </div>
+    </form>
+</section>
+
+<script>
+    window.searchResultTitleTemplate = "{{ T `search.resultTitle` }}"
+</script>
+{{- $opts := dict "minify" hugo.IsProduction "JSXFactory" "createElement" -}}
+{{- $searchScript := resources.Get "ts/search.tsx" | js.Build $opts -}}
+<script>
+    const wrongUrl = new URL(window.location.href);
+    const searchKeyword = decodeURIComponent(wrongUrl.pathname).split(/[/|-]/).join(' ').trim();
+    document.getElementById('searchInput').setAttribute('value', searchKeyword);
+</script>
+{{- end -}}
+
+{{ partialCached "footer/footer" . }}
+{{ end }}
