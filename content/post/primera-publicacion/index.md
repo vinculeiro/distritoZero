@@ -1,5 +1,5 @@
 ---
-title: "distritoZero | Inicio: datos para alumear o futuro desde Galicia"
+title: "distritoZero | Inicio"
 description: "Levanta a cabeza, baixa o balón, reparte xogo"
 date: 2025-02-17
 slug: primera-publicacion
