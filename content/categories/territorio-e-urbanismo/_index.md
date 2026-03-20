@@ -1,4 +1,5 @@
 ---
+translationKey: category-territorio
 title: Territorio e Urbanismo
 description: Ordenación do territorio, urbanismo, solo, vivenda e mobilidade
 style:

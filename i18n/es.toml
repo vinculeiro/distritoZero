@@ -1,133 +1,68 @@
-# Traducciones al español para Hugo Theme Stack
-# Este archivo sobrescribe las traducciones del tema
+# Español — estrutura alineada co tema Stack (v4) e aviso de cookies personalizado
 
-# Modo oscuro / Dark mode
-[theme_toggle]
-other = "Modo escuro"
+toggleMenu = "Mostrar u ocultar menú"
+darkMode   = "Modo oscuro"
 
-# Variantes alternativas para el toggle del modo oscuro
-[dark_mode]
-other = "Modo escuro"
+[list]
+    section = "Sección"
 
-[light_mode]
-other = "Modo claro"
+    [list.page]
+        one   = "{{ .Count }} página"
+        other = "{{ .Count }} páginas"
 
-# Etiquetas / Tags
-[tags]
-other = "Etiquetas"
+    [list.subsection]
+        one   = "Subsección"
+        other = "Subsecciones"
 
-# Nube de etiquetas / Tag cloud
-[tag_cloud]
-other = "Etiquetas"
+[article]
+    back            = "Volver"
+    tableOfContents = "Tabla de contenidos"
+    relatedContent  = "Contenido relacionado"
+    lastUpdatedOn   = "Última actualización"
 
-# Categorías
-[categories]
-other = "Categorías"
+    [article.readingTime]
+        one   = "{{ .Count }} minuto de lectura"
+        other = "{{ .Count }} minutos de lectura"
 
-# Buscar
-[search]
-other = "Buscar"
+    [article.alert]
+        note      = "Nota"
+        tip       = "Consejo"
+        important = "Importante"
+        warning   = "Advertencia"
+        caution   = "Precaución"
 
-# Archivos
-[archives]
-other = "Archivos"
+[notFound]
+    title    = "No encontrado"
+    subtitle = "Esta página no existe"
 
-# Inicio / Home
-[home]
-other = "Inicio"
-
-# Ligazóns / Links
-[links]
-other = "Enlaces"
-
-# Títulos de los widgets - COMENTADOS para usar los títulos de params.toml
-# Si quieres usar traducciones aquí, descomenta y cambia los valores
-# [widget.archives]
-# other = "Arquivos"
-# 
-# [widget.categories]
-# other = "Categorías"
-# 
-# [widget.tag_cloud]
-# other = "Etiquetas"
-# 
-# [widget.search]
-# other = "Buscar"
-# 
-# [widget.recent-posts]
-# other = "Artigos recentes"
-# 
-# [widget.related-posts]
-# other = "Artigos relacionados"
-
-# Ler máis
-[read_more]
-other = "Ler máis"
-
-# Tempo de lectura
-[reading_time]
-one = "minuto de lectura"
-other = "minutos de lectura"
-
-# Variantes para el texto completo "Tempo de lectura"
-[reading_time_label]
-other = "Tempo de lectura"
-
-[reading_time_prefix]
-other = "Tempo de lectura"
-
-[reading_time_text]
-other = "Tempo de lectura"
-
-# Contador de palabras
-[word_count]
-one = "palabra"
-other = "palabras"
-
-# Última actualización
-[last_updated]
-other = "Última actualización"
-
-# Publicado
-[published]
-other = "Publicado"
-
-# Formato de fecha en gallego
-[dateFormat]
-other = "galego"
-
-# Artigos relacionados
-[related_posts]
-other = "Artigos relacionados"
-
-# Non hai artigos
-[no_posts]
-other = "No hai artigos"
-
-# Páxina non atopada
-[page_not_found]
-other = "Página no encontrada"
-
-[page_not_found_message]
-other = "La página que buscas no existe."
-
-# Volver ao inicio
 [back_to_home]
-other = "Volver al inicio"
+    other = "Volver al inicio"
 
-# Táboa de contidos
-[table_of_contents]
-other = "Tabla de contenidos"
+[widget]
+    [widget.archives]
+        title = "Archivo"
+        more  = "Más"
 
-# Comentarios
-[comments]
-other = "Comentarios"
+    [widget.tagCloud]
+        title = "Etiquetas"
 
-# Compartir
-[share]
-other = "Compartir"
+    [widget.categoriesCloud]
+        title = "Categorías"
 
-# Aviso de cookies
+    [widget.recentPosts]
+        title = "Artículos recientes"
+
+    [widget.relatedPosts]
+        title = "Artículos relacionados"
+
+    [widget.search]
+        title = "Buscar"
+
+[search]
+    title       = "Búsqueda"
+    placeholder = "Escribe algo..."
+    resultTitle = "#PAGES_COUNT páginas en (#TIME_SECONDS segundos)"
+
 [cookie_consent_message]
     other = "Utilizamos cookies para analizar el tráfico de la web. Puedes aceptar o rechazar las cookies."
 [cookie_consent_privacy]
@@ -137,46 +72,30 @@ other = "Compartir"
 [cookie_consent_reject]
     other = "Rechazar"
 
-# Licenza
-[license]
-other = "Licencia"
+[footer]
+    builtWith  = "Creado con {{ .Generator }}"
+    designedBy = "Tema {{ .Theme }} diseñado por {{ .DesignedBy }}"
 
-# Anterior
-[previous]
-other = "Anterior"
+[cookies]
+    title             = "Consentimiento de cookies"
+    text              = "Usamos cookies para mejorar la navegación y analizar el tráfico."
+    acceptAll         = "Aceptar todas"
+    deny              = "Rechazar"
+    managePreferences = "Gestionar preferencias"
+    settingsTitle     = "Preferencias de cookies"
+    savePreferences   = "Guardar preferencias"
+    cancel            = "Cancelar"
+    footerLink        = "Configuración de cookies"
+    commentsDisabled  = "Los comentarios están desactivados hasta que aceptes cookies funcionales."
 
-# Seguinte
-[next]
-other = "Siguiente"
+    [cookies.necessary]
+        title = "Necesarias"
+        text  = "Son imprescindibles para el sitio y no se pueden desactivar."
 
-# Artigos máis recentes
-[newer_posts]
-other = "Artículos más recientes"
+    [cookies.analytics]
+        title = "Analíticas"
+        text  = "Nos ayudan a entender cómo se usa la web."
 
-# Artigos máis antigos
-[older_posts]
-other = "Artículos más antiguos"
-
-# Todos os artigos
-[all_posts]
-other = "Todos los artículos"
-
-# Non se atoparon resultados
-[no_results]
-other = "No se encontraron resultados"
-
-# Buscar...
-[search_placeholder]
-other = "Buscar..."
-
-# Pechar
-[close]
-other = "Cerrar"
-
-# Menú
-[menu]
-other = "Menú"
-
-# Idioma
-[language]
-other = "Idioma"
+    [cookies.functional]
+        title = "Funcionales"
+        text  = "Permiten comentarios y contenido incrustado."

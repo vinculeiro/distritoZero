@@ -1,4 +1,5 @@
 ---
+translationKey: category-participacion
 title: Participación e Transparencia
 description: Participación cidadá, datos abertos, transparencia e reutilización da información pública
 style:

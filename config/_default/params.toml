@@ -38,13 +38,14 @@ SortBy              = "default"
 [breadcrumb]
     enabled = true
 
+# Sen `title` nos widgets: o tema usa i18n (T "widget.*") e así cambia co idioma.
 [widgets]
     homepage = [
-        { type = "search", params = { title = "Buscar" } },
-        { type = "archives", params = { limit = 5, title = "Arquivos" } },
-        { type = "categories", params = { limit = 10, title = "Categorías" } },
-        { type = "tag-cloud", params = { limit = 10, title = "Etiquetas" } },
-        { type = "recent-posts", params = { limit = 5, title = "Artigos recentes" } },
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } },
+        { type = "recent-posts", params = { limit = 5 } },
     ]
     page = [
         { type = "toc" },

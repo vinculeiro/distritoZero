@@ -9,6 +9,6 @@ outputs:
 menu:
     main:
         weight: 4
-        params: 
+        params:
             icon: search
 ---

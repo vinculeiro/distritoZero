@@ -1,0 +1,33 @@
+# Multilingüe (Hugo + Stack): selector no sidebar cando hai máis dun idioma.
+# Documentación do tema: https://github.com/CaiJimmy/hugo-theme-stack
+
+[gl]
+languageName = "Galego"
+languageCode = "gl"
+title        = "distritoZero"
+weight       = 1
+
+[gl.params.sidebar]
+subtitle = "Datos para alumear o futuro"
+
+[gl.params.article.license]
+default = "Licenciado baixo CC BY-NC-SA 4.0"
+
+# Giscus: interface en galego non dispoñible de xeito fiable; mantemos español na versión gl.
+[gl.params.comments.giscus]
+lang = "es"
+
+[es]
+languageName = "Español"
+languageCode = "es"
+title        = "distritoZero"
+weight       = 2
+
+[es.params.sidebar]
+subtitle = "Datos para iluminar el futuro"
+
+[es.params.article.license]
+default = "Licenciado bajo CC BY-NC-SA 4.0"
+
+[es.params.comments.giscus]
+lang = "es"

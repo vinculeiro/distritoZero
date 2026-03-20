@@ -10,3 +10,4 @@ assets/jsconfig.json
 # Archivos .md generados desde .qmd (mantener solo .qmd como fuente)
 content/post/**/*.md
 !content/post/**/index.md
+!content/post/**/index.*.md

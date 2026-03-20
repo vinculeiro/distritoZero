@@ -71,7 +71,7 @@
   var GA_ID = {{ (.Site.Params.googleAnalytics.id | default "G-XXXXXXXXXX") | jsonify }};
   var MSG = {{ (i18n "cookie_consent_message" | default "Utilizamos cookies para analizar o tráfico da web e mellorar a túa experiencia. Podes aceptar ou rexeitar as cookies.") | jsonify }};
   var PRIVACY_LABEL = {{ (i18n "cookie_consent_privacy" | default "Política de privacidade") | jsonify }};
-  var PRIVACY_URL = {{ (.Site.Params.cookieConsent.privacyPolicyUrl | default "") | jsonify }};
+  var PRIVACY_URL = {{ (.Site.Params.cookieConsent.privacyPolicyUrl | default "/privacy/" | relLangURL) | jsonify }};
   var ACCEPT = {{ (i18n "cookie_consent_accept" | default "Aceptar") | jsonify }};
   var REJECT = {{ (i18n "cookie_consent_reject" | default "Rexeitar") | jsonify }};
 

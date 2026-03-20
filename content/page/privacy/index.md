@@ -1,4 +1,5 @@
 ---
+translationKey: privacy
 title: Política de privacidade
 slug: privacy
 menu:

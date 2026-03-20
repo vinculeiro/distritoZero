@@ -1,4 +1,5 @@
 ---
+translationKey: primera-publicacion
 title: "distritoZero | Inicio"
 description: "Levanta a cabeza, baixa o balón, reparte xogo"
 date: 2025-02-17

@@ -25,6 +25,13 @@ darkMode   = "Modo escuro"
         one   = "Tempo de lectura {{ .Count }} minuto"
         other = "Tempo de lectura {{ .Count }} minutos"
 
+    [article.alert]
+        note      = "Nota"
+        tip       = "Consello"
+        important = "Importante"
+        warning   = "Advertencia"
+        caution   = "Precaución"
+
 [notFound]
     title    = "Non Atopado"
     subtitle = "Esta páxina non existe"
@@ -53,8 +60,8 @@ darkMode   = "Modo escuro"
         title = "Buscar"
 
 [search]
-    title       = "Búsqueda"
-    placeholder = "Escribe algo..."
+    title       = "Busca"
+    placeholder = "Escribe algunha cousa..."
     resultTitle = "#PAGES_COUNT páxinas en (#TIME_SECONDS segundos)"
 
 # Aviso de cookies
@@ -70,3 +77,27 @@ darkMode   = "Modo escuro"
 [footer]
     builtWith  = "Creado con {{ .Generator }}"
     designedBy = "Tema {{ .Theme }} deseñado por {{ .DesignedBy }}"
+
+[cookies]
+    title             = "Consentimento de cookies"
+    text              = "Usamos cookies para mellorar a navegación e analizar o tráfico."
+    acceptAll         = "Aceptar todas"
+    deny              = "Rexeitar"
+    managePreferences = "Xestionar preferencias"
+    settingsTitle     = "Preferencias de cookies"
+    savePreferences   = "Gardar preferencias"
+    cancel            = "Cancelar"
+    footerLink        = "Configuración de cookies"
+    commentsDisabled  = "Os comentarios están desactivados ata que aceptes cookies funcionais."
+
+    [cookies.necessary]
+        title = "Necesarias"
+        text  = "Requírense para o funcionamento da web e non se poden desactivar."
+
+    [cookies.analytics]
+        title = "Analíticas"
+        text  = "Axúdannos a entender como se usa o sitio."
+
+    [cookies.functional]
+        title = "Funcionais"
+        text  = "Permiten comentarios e contido incrustado."
