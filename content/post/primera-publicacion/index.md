@@ -46,7 +46,6 @@ O sitio ofréceche varias ferramentas para navegar e interactuar:
 | **Arquivo** | Accede aos artigos ordenados cronoloxicamente |
 | **Categorías** | Explora por temas principais |
 | **Etiquetas** | Descobre contido por temas específicos |
-| **Comentarios** | Deixa a túa opinión vía Giscus (GitHub Discussions) |
 | **Privacidade** | Aviso de cookies e política de privacidade claras |
 
 A análise de visitas faise con **Google Analytics**, activado só tras o teu consentimento de cookies. O noso compromiso é coa transparencia tamén no uso dos teus datos.

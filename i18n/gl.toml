@@ -1,6 +1,3 @@
-# Traducións ao galego para Hugo Theme Stack
-# Este arquivo sobrescribe as traducións do tema
-
 toggleMenu = "Ocultar menú"
 darkMode   = "Modo escuro"
 
@@ -64,7 +61,6 @@ darkMode   = "Modo escuro"
     placeholder = "Escribe algunha cousa..."
     resultTitle = "#PAGES_COUNT páxinas en (#TIME_SECONDS segundos)"
 
-# Aviso de cookies
 [cookie_consent_message]
     other = "Utilizamos cookies para analizar o tráfico da web. Podes aceptar ou rexeitar as cookies."
 [cookie_consent_privacy]

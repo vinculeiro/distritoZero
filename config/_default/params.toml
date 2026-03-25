@@ -38,7 +38,6 @@ SortBy              = "default"
 [breadcrumb]
     enabled = true
 
-# Sen `title` nos widgets: o tema usa i18n (T "widget.*") e así cambia co idioma.
 [widgets]
     homepage = [
         { type = "search" },
@@ -76,19 +75,6 @@ SortBy              = "default"
     # Enlace a tu política de privacidad (opcional)
     privacyPolicyUrl = "/privacy/"
 
-## Comments (Giscus - gratuito, usa GitHub Discussions)
+## Comentarios (desactivados)
 [comments]
-    enabled  = true
-    provider = "giscus"
-
-    [comments.giscus]
-        repo             = "vinculeiro/distritoZero"
-        repo_id          = "R_kgDORSeLqQ"
-        category         = "General"
-        category_id      = "DIC_kwDORSeLqc4C2pGx"
-        mapping          = "pathname"
-        strict_matching  = false
-        theme            = "dark"
-        input_position   = "bottom"
-        reactions        = true
-        lang             = "es"
+    enabled = false

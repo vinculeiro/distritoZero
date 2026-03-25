@@ -27,11 +27,7 @@ Puedes rechazar las cookies en cualquier momento. Tu preferencia se guarda en el
 
 ### Datos que no recogemos
 
-No vendemos, cedemos ni compartimos datos personales con terceros. No recogemos correos electrónicos ni información identificable a través de esta web, salvo la que nos proporciones voluntariamente (por ejemplo, en los comentarios, si los usas).
-
-### Comentarios
-
-Utilizamos [Giscus](https://giscus.app/) para los comentarios, que usa GitHub Discussions. Los comentarios son públicos y gestionados por GitHub. Para comentar necesitarás una cuenta de GitHub. Consulta la [política de privacidad de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+No vendemos, cedemos ni compartimos datos personales con terceros. No recogemos correos electrónicos ni información identificable a través de esta web.
 
 ### Google Analytics
 
