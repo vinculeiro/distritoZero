@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/img/logo.svg" alt="Logo distritoZero" width="320" />
+  <img src="assets/img/logo.png" alt="Logo distritoZero" width="320" />
 </p>
 
 # distritoZero
