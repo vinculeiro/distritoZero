@@ -2,6 +2,7 @@
 translationKey: home
 menu:
     main:
+        identifier: home
         name: Inicio
         weight: 1
         params:

@@ -1,0 +1,33 @@
+{{- $lightName := .Get "light" -}}
+{{- $darkName := .Get "dark" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $light := .Page.Resources.GetMatch $lightName -}}
+{{- $dark := .Page.Resources.GetMatch $darkName -}}
+<figure class="post-chart-dual">
+  {{- with $light -}}
+  <img
+    class="post-chart-dual__img post-chart-dual__img--light"
+    src="{{ .RelPermalink }}"
+    alt="{{ $alt }}"
+    {{- with .Width }} width="{{ . }}"{{ end -}}
+    {{- with .Height }} height="{{ . }}"{{ end -}}
+    loading="lazy"
+    decoding="async"
+  />
+  {{- else -}}
+  <!-- chart-dual: non se atopou o recurso light: {{ $lightName }} -->
+  {{- end -}}
+  {{- with $dark -}}
+  <img
+    class="post-chart-dual__img post-chart-dual__img--dark"
+    src="{{ .RelPermalink }}"
+    alt="{{ $alt }}"
+    {{- with .Width }} width="{{ . }}"{{ end -}}
+    {{- with .Height }} height="{{ . }}"{{ end -}}
+    loading="lazy"
+    decoding="async"
+  />
+  {{- else -}}
+  <!-- chart-dual: non se atopou o recurso dark: {{ $darkName }} -->
+  {{- end -}}
+</figure>

@@ -1,0 +1,13 @@
+{{- /* absURL respecta o baseURL (incl. /distritoZero/ en prod e no hugo server) — evita 404 por relURL con "/" inicial */ -}}
+{{- $href := absURL "apps/plenos-lalin/" -}}
+{{- $es := eq .Page.Language.Lang "es" -}}
+<a class="project-card" role="listitem" href="{{ $href }}" target="_blank" rel="noopener noreferrer">
+  <h3 class="project-card__title">Plenos Lalín</h3>
+  {{- if $es }}
+  <p class="project-card__desc">Exploración de las actas y votaciones de los plenos municipales (React). Código en <code>actas_organos_colexiados/app_react</code>.</p>
+  <span class="project-card__meta">Versión integrada en este sitio (<code>/apps/plenos-lalin/</code>). Para desarrollo con recarga: <code>npm run dev</code> en <code>app_react</code> (Vite, <code>http://localhost:5173</code>).</span>
+  {{- else }}
+  <p class="project-card__desc">Exploración das actas e votacións dos plenos municipais (React). Código no repo <code>actas_organos_colexiados/app_react</code>.</p>
+  <span class="project-card__meta">Versión integrada neste sitio (<code>/apps/plenos-lalin/</code>). Para desenvolvemento con recarga: <code>npm run dev</code> en <code>app_react</code> (Vite, <code>http://localhost:5173</code>).</span>
+  {{- end }}
+</a>

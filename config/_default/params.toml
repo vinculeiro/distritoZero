@@ -44,7 +44,8 @@ SortBy              = "default"
         { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
         { type = "tag-cloud", params = { limit = 10 } },
-        { type = "recent-posts", params = { limit = 5 } },
+        # recent-posts: algunhas versións do tema Stack non inclúen este widget (WARN ao compilar)
+        # { type = "recent-posts", params = { limit = 5 } },
     ]
     page = [
         { type = "toc" },
