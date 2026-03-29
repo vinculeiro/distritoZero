@@ -1,0 +1,26 @@
+{{- $context := .Context -}}
+{{- $limit := default 5 .Params.limit -}}
+{{- $pages := partial "helper/pages.html" $context.Site.Home -}}
+{{- $recent := first $limit $pages -}}
+
+{{- if gt (len $recent) 0 -}}
+<section class="widget archives">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "clock" }}
+    </div>
+    <h2 class="widget-title section-title">{{ T "widget.recentPosts.title" }}</h2>
+
+    <div class="widget-archive--list">
+        {{- range $recent -}}
+            <div class="archives-year">
+                <a href="{{ .RelPermalink }}">
+                    <span class="year">{{ .Title }}</span>
+                    {{- if not .Date.IsZero -}}
+                        <span class="count">{{ .Date | time.Format $context.Site.Params.dateFormat.published }}</span>
+                    {{- end -}}
+                </a>
+            </div>
+        {{- end -}}
+    </div>
+</section>
+{{- end -}}
