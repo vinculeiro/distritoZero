@@ -6,5 +6,29 @@ defaultContentLanguageInSubdir   = false
 
 hasCJKLanguage = false
 
+# Galego (por defecto na raíz) e español en /es/ — o tema Stack mostra o selector cando hai máis dun idioma.
+# Ver: https://gohugo.io/content-management/multilingual/
+[languages]
+    [languages.gl]
+        languageName = "Galego"
+        languageCode = "gl"
+        title        = "distritoZero"
+        weight       = 1
+    [languages.es]
+        languageName = "Español"
+        languageCode = "es"
+        title        = "distritoZero"
+        weight       = 2
+
+# Sobrescrituras para o sitio en español (o resto herda de params.toml)
+[languages.es.params.sidebar]
+    subtitle = "Datos para iluminar el futuro"
+
+[languages.es.params.article.license]
+    default = "Licenciado bajo CC BY-NC-SA 4.0"
+
+[languages.es.params.cookieConsent]
+    privacyPolicyUrl = "/es/privacy/"
+
 [pagination]
     pagerSize = 5
