@@ -2,7 +2,7 @@
 translationKey: primera-publicacion
 title: "distritoZero | Inicio"
 description: "Levanta a cabeza, baixa o balón, reparte xogo"
-date: 2025-02-17
+date: 2026-05-15
 slug: primera-publicacion
 image: cover.png
 image_alt: "Logo de distritoZero sobre fondo verde con barra dourada"
